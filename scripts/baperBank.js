@@ -1,4 +1,5 @@
 // handling button
+
 const submit =document.getElementById('submit').addEventListener('click', function () {
     const emailFiled = document.getElementById('input-email').value;
     const passwordFiled =document.getElementById('input-password').value;
@@ -11,5 +12,3 @@ const submit =document.getElementById('submit').addEventListener('click', functi
 
 
 
-
-// bank statement page script
