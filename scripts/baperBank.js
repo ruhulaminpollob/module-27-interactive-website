@@ -8,3 +8,8 @@ const submit =document.getElementById('submit').addEventListener('click', functi
         alert=('Wrong Email or Password')
     }
 })
+
+
+
+
+// bank statement page script
