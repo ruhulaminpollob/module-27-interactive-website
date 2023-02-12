@@ -3,8 +3,8 @@ const submit =document.getElementById('submit').addEventListener('click', functi
     const emailFiled = document.getElementById('input-email').value;
     const passwordFiled =document.getElementById('input-password').value;
     if (emailFiled === 'kuddus@ali.com' && passwordFiled === 'LoveRohima123') {
-        console.log('valid email and password');
+        window.location.href='index.html'
     }else{
-        console.log('invalid email or password');
+        alert=('Wrong Email or Password')
     }
 })
